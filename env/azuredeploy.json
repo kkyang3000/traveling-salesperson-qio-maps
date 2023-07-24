@@ -81,6 +81,17 @@
             }
         },
         {
+            "name": "[variables('functionAppName')]",
+            "type": "Microsoft.Insights/components",
+            "location": "[parameters('location')]",
+            "apiVersion": "2020-02-02",
+            "properties": {
+                "ApplicationId": "[variables('functionAppName')]",
+                "Application_Type": "web",
+                "Flow_Type": "Bluefield"
+            }
+        },
+        {
             "type": "Microsoft.Web/sites",
             "apiVersion": "2021-02-01",
             "name": "[variables('functionAppName')]",

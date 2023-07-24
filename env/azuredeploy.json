@@ -42,7 +42,7 @@
             "kind": "StorageV2"
         },
         {
-            "type": "Microsoft.Quantum/Workspaces",
+            "type": "Microsoft.Quantum/workspaces",
             "apiVersion": "2019-11-04-preview",
             "name": "[variables('workspaceName')]",
             "location": "[parameters('location')]",

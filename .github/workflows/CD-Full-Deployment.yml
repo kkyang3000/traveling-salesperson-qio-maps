@@ -5,7 +5,7 @@ on:
       - 'env/**'
       - 'src/**'
       - '**/CD-Full-Deployment.yml'
-
+#comment added to commit changes
 name: CD Full Deployment
 env:
   AZURE_RESOURCE_GROUP_NAME: traveling-salesperson-rg

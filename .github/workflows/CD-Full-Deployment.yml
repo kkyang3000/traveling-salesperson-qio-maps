@@ -8,10 +8,10 @@ on:
 #comment added to commit changes
 name: CD Full Deployment
 env:
-  AZURE_RESOURCE_GROUP_NAME: tsp_rg
+  AZURE_RESOURCE_GROUP_NAME: tsp_map
   AZURE_RESOURCE_GROUP_LOCATION: eastus
-  APP_NAME: travelingsp
-  AZURE_FUNCTIONAPP_NAME: travelingsp
+  APP_NAME: tsp_app
+  AZURE_FUNCTIONAPP_NAME: tsp_app
   AZURE_FUNCTIONAPP_PACKAGE_PATH: './src/Function.JobManagement'
   PYTHON_VERSION: '3.9'
 jobs:

@@ -8,7 +8,7 @@ on:
 #comment added to commit changes
 name: CD Full Deployment
 env:
-  AZURE_RESOURCE_GROUP_NAME: traveling-salesperson-rg
+  AZURE_RESOURCE_GROUP_NAME: tsp_rg
   AZURE_RESOURCE_GROUP_LOCATION: eastus
   APP_NAME: travelingsp
   AZURE_FUNCTIONAPP_NAME: travelingsp

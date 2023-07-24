@@ -81,17 +81,6 @@
             }
         },
         {
-            "name": "[variables('functionAppName')]",
-            "type": "microsoft.insights/components",
-            "location": "[parameters('location')]",
-            "apiVersion": "2014-04-01",
-            "properties": {
-                "ApplicationId": "[variables('functionAppName')]",
-                "Application_Type": "web",
-                "Flow_Type": "Redfield"
-            }
-        },
-        {
             "type": "Microsoft.Web/sites",
             "apiVersion": "2021-02-01",
             "name": "[variables('functionAppName')]",

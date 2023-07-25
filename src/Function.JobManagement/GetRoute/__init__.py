@@ -9,7 +9,7 @@ from azure.quantum import Workspace
 from azure.quantum.optimization import Problem, ProblemType
 from azure.quantum.optimization import SimulatedAnnealing, ParallelTempering, Tabu, QuantumMonteCarlo
 
-from shared_code import travelingsalesperson, mapsaccess as maps
+import travelingsalesperson, mapsaccess as maps
 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
